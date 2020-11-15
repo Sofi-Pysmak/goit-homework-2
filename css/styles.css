@@ -1,0 +1,140 @@
+.header-contacts a {
+  color: #757575;
+}
+
+.main-nav-link:visited {
+  color: #2196f3;
+}
+.main-nav-link {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  font-size: 44 px;
+  line-height: 1.36;
+}
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+}
+.specialize p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.specialize h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Применится ко всем спискам на странице */
+ul {
+  list-style: none;
+}
+/* Применится ко всем ссылкам на странице */
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #2196f3;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+footer a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-projects p {
+  color: #757575;
+  font-size: 16 px;
+  line-height: 1.875;
+  font-weight: normal;
+}
+
+.portfolio-projects h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.portfolio-projects-filter a:hover {
+  background-color: #2196f3;
+  color: white;
+}
+.portfolio-projects a {
+  text-transform: capitalize;
+}
+.portfolio-projects p {
+  text-transform: capitalize;
+}
+.portfolio-projects-filter a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}

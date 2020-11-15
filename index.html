@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    
     <title>Homework2</title>
 </head>
 
 <body>
     <header>
         <a> <img src="./images/WebStudioLogo.svg" alt="logo"></a>
-        <nav>
+        <nav class=main-nav>
             <ul>
-                <Li> <a href="#">Студия</a> </Li>
-                <Li> <a href="./portfolio.html">Портфолио</a> </Li>
-                <li> <a href="#">Контакты</a> </li>
+                <Li> <a class=main-nav-link href="./index.html">студия</a> </Li>
+                <Li> <a class=main-nav-link href="./portfolio.html">портфолио</a> </Li>
+                <li> <a class=main-nav-link href="#">контакты</a> </li>
             </ul>
-            <address>
+            <address class=header-contacts>
                 <ul>
                     <Li> <a href="#"> info@devstudio.com </a></Li>
                     <Li> <a href="#"> +380961111111 </a></Li>
@@ -26,13 +30,14 @@
 
     </header>
     <main>
-        <section>
+        <!--hero-->
+        <section class=hero>
             <h1>Эффективные решения для вашего бизнеса</h1>
             <button>Заказать услугу</button>
         </section>
         <section>
             <!--<h2>Особенности</h2>-->
-            <div>
+            <div class=specialize>
                 <h3>Внимание к деталям</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 
@@ -57,7 +62,8 @@
             </ul>
 
         </section>
-        <section>
+        <!--Наша команда-->
+        <section class=team>
             <h2>Наша команда</h2>
             <ul>
                 <li>
@@ -87,11 +93,13 @@
     <footer>
         <div>
             <img src="./images/WebStudioWhite.svg" alt="logo">
-            <p>
-            <a href="3">г. Киев, пр-т Леси Украинки, 26</a>
-            <a href="3">info@example.com</a>
-            <a href="3">+38 099 111 11 11</a>
-            </p>
+            <address>
+                <ul>
+                    <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+                    <li><a class= footer-contacts href="#">info@example.com</a></li>
+                    <li><a class= footer-contacts href="#">+38 099 111 11 11</a></li>
+                </ul>       
+            </address>
         </div>
     </footer>
 </body>
