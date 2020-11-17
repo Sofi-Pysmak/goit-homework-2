@@ -1,5 +1,26 @@
+/* Применится ко всем спискам на странице */
+ul {
+  list-style: none;
+}
+/* Применится ко всем ссылкам на странице */
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*index*/
 body {
-  font-family: roboto;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .header-contacts a {
@@ -28,6 +49,8 @@ body {
 .hero {
   background-color: #2f303a;
   color: #ffffff;
+  font-size: 44px;
+  font-size: 2.1em;
 }
 .hero button {
   color: #ffffff;
@@ -102,15 +125,6 @@ body {
   color: #757575;
 }
 
-/* Применится ко всем спискам на странице */
-ul {
-  list-style: none;
-}
-/* Применится ко всем ссылкам на странице */
-a {
-  text-decoration: none;
-  font-style: normal;
-}
 a:hover,
 a:focus {
   color: #2196f3;
@@ -146,7 +160,7 @@ footer a {
   color: black;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 .portfolio-projects-filter button:hover {
@@ -163,6 +177,6 @@ footer a {
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   color: #212121;
 }
