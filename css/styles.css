@@ -10,6 +10,7 @@ body {
 .main-nav-link:visited {
   color: #2196f3;
 }
+
 .main-nav-link {
   text-transform: capitalize;
   font-weight: 500;
@@ -17,6 +18,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.main-nav-link.current {
+  background: #2196f3;
+  border-radius: 4px;
+  color: #ffffff;
 }
 
 .hero {
@@ -29,8 +35,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
-h1 {
+.hero h1 {
   font-family: Roboto;
   font-style: normal;
   text-align: center;
@@ -63,7 +68,8 @@ h1 {
   color: #212121;
 }
 
-.specialization h2 {
+.specialization h2,
+.team h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
