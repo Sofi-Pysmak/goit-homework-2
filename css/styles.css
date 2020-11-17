@@ -15,6 +15,7 @@ a {
 }
 
 /*index*/
+
 body {
   font-family: roboto, sans-serif;
   font-weight: 400;
@@ -40,6 +41,7 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .main-nav-link.current {
   background: #2196f3;
   border-radius: 4px;
@@ -49,7 +51,6 @@ body {
 .hero {
   background-color: #2f303a;
   color: #ffffff;
-  font-size: 44px;
   font-size: 2.1em;
 }
 .hero button {
@@ -58,6 +59,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 .hero h1 {
   font-family: Roboto;
   font-style: normal;
@@ -147,6 +149,7 @@ footer a {
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
+
 /*portfolio-style*/
 
 .portfolio-projects p {
@@ -167,6 +170,7 @@ footer a {
   background-color: #2196f3;
   color: white;
 }
+
 .portfolio-projects button,
 .portfolio-projects p {
   text-transform: capitalize;
